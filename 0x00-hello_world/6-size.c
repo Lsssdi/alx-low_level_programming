@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main: Entry point
+ * main - Entry point
  *
  * prints out size of different type of varibales based on computer
  * the programme is being compiled and run on
  *
- * Return: always 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
