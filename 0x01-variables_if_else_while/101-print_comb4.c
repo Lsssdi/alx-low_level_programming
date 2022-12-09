@@ -26,7 +26,7 @@ int main(void)
 				putchar(n % 10 + '0');
 				putchar(t % 10 + '0');
 
-				if (i == 8)
+				if (i == 7)
 				{
 					putchar('\n');
 					return (0);
