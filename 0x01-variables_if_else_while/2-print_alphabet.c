@@ -14,6 +14,7 @@ int main(void)
 		,'n','o','p','q','r','s','t','u','v','w','x','y','z'};
 
 	int i;
+
 	for (i = 0; i < 26; i++)
 	{
 		putchar(alphabet[i]);

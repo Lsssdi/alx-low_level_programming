@@ -18,7 +18,6 @@ int main(void)
 
 		for (; n < 10; n++)
 		{
-		
 			putchar(i % 10 + '0');
 			putchar(n % 10 + '0');
 

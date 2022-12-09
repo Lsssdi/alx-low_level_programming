@@ -14,6 +14,7 @@ int main(void)
 		'c','d','e','f'};
 
 	int i;
+
 	for (i = 0; i < 16; i++)
 	{
 		putchar(base16Char[i]);
