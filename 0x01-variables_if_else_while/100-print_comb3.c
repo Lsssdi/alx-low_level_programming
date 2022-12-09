@@ -11,14 +11,16 @@
 int main(void)
 {
 	int i = 0;
+
 	for (; i < 9; i++)
 	{
-		int n = i+1;
+		int n = i + 1;
+
 		for (; n < 10; n++)
 		{
 		
-			putchar(i%10 + '0');
-			putchar(n%10 + '0');
+			putchar(i % 10 + '0');
+			putchar(n % 10 + '0');
 
 			if (i == 8)
 			{
