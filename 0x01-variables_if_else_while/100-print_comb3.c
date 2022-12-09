@@ -10,9 +10,11 @@
 
 int main(void)
 {
-	for (int i = 0; i < 9; i++)
+	int i = 0;
+	for (; i < 9; i++)
 	{
-		for (int n = i+1; n < 10; n++)
+		int n = i+1;
+		for (; n < 10; n++)
 		{
 		
 			putchar(i%10 + '0');
@@ -28,4 +30,6 @@ int main(void)
 			putchar(' ');
 		}
 	}
+
+	return (0);
 }

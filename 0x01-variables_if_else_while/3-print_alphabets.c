@@ -15,7 +15,8 @@ int main(void)
 		'B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q',
 		'R','S','T','U','V','W','X','Y','Z', '\n'};
 
-	for (int i =0; i < 52; i++)
+	int i;
+	for (i = 0; i < 52; i++)
 	{
 		putchar(letters[i]);
 	}
