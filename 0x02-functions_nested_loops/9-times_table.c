@@ -5,9 +5,7 @@
  * @n: an integer
  *
  * Return: void
- */
-
-/**
+ *
  * times_table - prinst out the 9 times table starting with 0
  *
  * Return: void.
@@ -39,8 +37,11 @@ void times_table(void)
 				_putchar(' ');
 			}
 
-			if (a * (b + 1) < 10 && a * (b + 1) != 0)
+			if (a * (b + 1) < 10)
 			{
+				if (a == 0 && b == 9)
+					continue;
+
 				_putchar(' ');
 			}
 		}
