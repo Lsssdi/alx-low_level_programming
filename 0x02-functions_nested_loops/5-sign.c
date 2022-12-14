@@ -2,8 +2,9 @@
 
 /**
  * print_sign - prints to standard output the sign of a number
- *
- * Return 1 if positive, 0 if zero and -1 if negative
+ *@n: an integer
+
+ * Return: 1 if positive, 0 if zero and -1 if negative
  */
 
 int print_sign(int n)
@@ -16,7 +17,7 @@ int print_sign(int n)
 		status = 1;
 	}
 	else if (n == 0)
-	{ 
+	{
 		_putchar('0');
 		status = 0;
 	}
