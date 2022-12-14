@@ -5,7 +5,7 @@
  * print_to_98 - prints the numbers in order from integer n up to and
  * including
  *@n: an integer
-
+ *
  * Return: void (nothing)
  */
 
