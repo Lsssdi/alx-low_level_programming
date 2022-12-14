@@ -1,6 +1,13 @@
 #include "main.h"
 
 /**
+ * printNum - prints out an integer
+ * @n: an integer
+ *
+ * Return: void
+ */
+
+/**
  * times_table - prinst out the 9 times table starting with 0
  *
  * Return: void.
@@ -22,7 +29,7 @@ void times_table(void)
 	{
 		int b = 0;
 
-		for (; b<= 9; b++)
+		for (; b <= 9; b++)
 		{
 			printNum(a * b);
 
@@ -31,8 +38,8 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 			}
-			
-			if ( a * (b+1) < 10)
+
+			if (a * (b + 1) < 10 && a * (b + 1) != 0)
 			{
 				_putchar(' ');
 			}
