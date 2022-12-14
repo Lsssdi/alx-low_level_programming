@@ -2,6 +2,7 @@
 
 /**
  * _islower - confirms wether charcter is lowercase
+ * @c: an integer
  *
  * Return: 0 if lower case and 1 if otherwise
  */
