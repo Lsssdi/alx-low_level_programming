@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * _isalpha - confirms wether charcter is lowercase or 
+ * _isalpha - confirms wether charcter is lowercase or
  * uppercase alphabet or not
+ * @c: an integer
  *
  * Return: 0 if lower/upper case and 1 if otherwise
  */
@@ -15,7 +16,7 @@ int _isalpha(int c)
 
 	for (; i <= 90; i++)
 	{
-		if (c == '0' - '0' + i )
+		if (c == '0' - '0' + i)
 		{
 			status = 1;
 		}
@@ -28,6 +29,6 @@ int _isalpha(int c)
 			status = 1;
 		}
 	}
-	
-	return (status);	
+
+	return (status);
 }
