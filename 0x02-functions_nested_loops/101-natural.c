@@ -4,10 +4,10 @@
 /**
  * main - entry point
  *
- * Return: void
+ * Return: Always 0
  */
 
-void main(void)
+int main(void)
 {
 	int i = 0;
 	int sum = 0;
