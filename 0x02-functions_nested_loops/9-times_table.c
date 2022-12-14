@@ -4,8 +4,6 @@
  * printNum - prints out an integer
  * @n: an integer
  *
- * Return: void
- *
  * times_table - prinst out the 9 times table starting with 0
  *
  * Return: void.
