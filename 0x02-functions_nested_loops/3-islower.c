@@ -18,6 +18,6 @@ int _islower(int c)
 			status = 1;
 		}
 	}
-	
-	return (status);	
+
+	return (status);
 }
