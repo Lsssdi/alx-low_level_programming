@@ -12,7 +12,7 @@ void rev_string(char *s)
 {
 	char c;
 	int i;
-	char *e = s + strlen(s) -1;
+	char *e = s + strlen(s) - 1;
 
 	if (strlen(s) % 2 != 0)
 		i = (strlen(s) - 1) / 2;
