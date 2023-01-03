@@ -3,7 +3,7 @@
  * @s: pointer to a string
  * @c: character to search for in string
  *
- * Return: pointer to address of first occurence of 
+ * Return: pointer to address of first occurence of
  * charcter in string else return NULL
  */
 
