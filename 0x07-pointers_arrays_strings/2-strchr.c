@@ -1,5 +1,3 @@
-#include <stddef.h>
-
 /**
  * _strchr - returns pointer to the first occurence of the character c 
  * in the string s
@@ -12,8 +10,8 @@
 
 char *_strchr(char *s, char c)
 {
-	char *strAddr ;
-	strAddr = NULL;
+	char *strAddr; 
+	strAddr = 0;
 
 	while (*s != '\0')
 	{
