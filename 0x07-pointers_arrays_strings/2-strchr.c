@@ -1,5 +1,6 @@
 /**
- * _strchr(char *s, char c)
+ * _strchr - returns pointer to the first occurence of the character c 
+ * in the string s
  * @s: pointer to a string
  * @c: character to search for in string
  *
@@ -9,7 +10,7 @@
 
 char *_strchr(char *s, char c)
 {
-	char *strAddr = 0;
+	char *strAddr;
 
 	while (*s != '\0')
 	{
