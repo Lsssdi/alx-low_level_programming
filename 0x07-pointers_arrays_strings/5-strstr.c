@@ -2,6 +2,9 @@
  * _strstr - finds substring within another string
  * @haystack: pointer to string to be searched
  * @needle: pointer to substring to find
+ *
+ * Return: pointer to the beginning of the located substring,
+ * or NULL
  */
 
 char *_strstr(char *haystack, char *needle)
