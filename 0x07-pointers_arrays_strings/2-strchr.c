@@ -10,7 +10,7 @@
 
 char *_strchr(char *s, char c)
 {
-	char *strAddr = NULL;
+	char *strAddr = 0;
 
 	while (*s != '\0')
 	{
