@@ -2,6 +2,8 @@
 
 /**
  * main - entry point to programme
+ * @argc: number of arguments from command line
+ * @argv: array of arguments entered
  *
  * Return: 0 (Always Success)
  */
