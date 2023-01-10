@@ -27,13 +27,13 @@ char *str_concat(char *s1, char *s2)
 	if (c == NULL)
 		return (NULL);
 
-	if (s1 != NULL)
+	if (*s1 != NULL)
 	{
 		for (; i1 < l1; i1++)
 			c[i1] = *(s1 + i1);
 	}
 
-	if (s2 == NULL)
+	if (*s2 == NULL)
 		c[l1] = '\0';
 	else
 	{
@@ -44,7 +44,7 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	return (c);
-	
+
 }
 
 
