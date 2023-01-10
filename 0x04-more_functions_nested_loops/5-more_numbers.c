@@ -16,12 +16,12 @@ void printNum(int n)
 }
 
 /**
- * more numbers - prints the numbers 0 to 14 ten times
+ * more_numbers - prints the numbers 0 to 14 ten times
  * each on a new line
  *
  * Return: void
  */
-	
+
 void more_numbers(void)
 {
 	int i = 0;
