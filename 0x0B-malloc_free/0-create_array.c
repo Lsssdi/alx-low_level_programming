@@ -6,7 +6,8 @@
  * @size: number of chars to make space
  * @c: char to initialize array with
  *
- * Return: pointer to array or Null if size is 0 or if memeory allocations fails
+ * Return: pointer to array or Null if size is 0 
+ * or if memeory allocations fails
  */
 
 char *create_array(unsigned int size, char c)
