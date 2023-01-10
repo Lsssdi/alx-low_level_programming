@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - prints a diagonal line on std output
+ * print_diagonal - prints a diagonal line on std output
  * @n: integer which specifies length of line
  *
  * Return: void
@@ -19,7 +19,7 @@ void print_diagonal(int n)
 
 		for (; i <= n; i++)
 		{
-			int s = i-1;
+			int s = i - 1;
 
 			for (; s > 0; s--)
 				_putchar(' ');
@@ -27,6 +27,5 @@ void print_diagonal(int n)
 			_putchar('\\');
 			_putchar('\n');
 		}
-		
 	}
 }
